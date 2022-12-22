@@ -1,0 +1,128 @@
+body {
+    margin: auto;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+
+.flex_container {
+    background-color: #1F2630;
+    width: 350px;
+    padding: 25px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_container img {
+    width: 20px;
+    border-radius: 50%;
+    padding: 12.5px;
+    background-color: #262E39;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+.number_container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+h2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #262E39;
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2:hover {
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+button {
+    width: 90%;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    height: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+
+.thanks_container {
+    background-color: #1F2630;
+    width: 350px;
+    padding: 25px;
+    border-radius: 20px;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+}
+
+.thanks_container img {
+    width: 200px;
+margin: auto;
+}
+
+.result {
+    color: hsl(25, 97%, 53%);
+    background-color: #262E39;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.flex {
+    display: flex;
+}
+
+.none {
+    display: none;
+}
+
+.selected {
+    background-color: hsl(25, 97%, 53%);
+    color: white
+}
+
+@media all and (max-width: 700px) {
+    .flex_container {
+        width: 80vw;
+    }
+    .thanks_container {
+        width: 80vw;
+    }
+}
